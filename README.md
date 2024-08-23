@@ -1,73 +1,30 @@
-# This app can do crypto payments with ease.
+https://66bafbcd665218c245b2eefa--dashing-mochi-262f7b.netlify.app/
 
+**Ethereum Payments DApp**
+This project is a decentralized application (DApp) for handling Ethereum payments, including ERC-20 token transfers. It uses ethers.js for interacting with the Ethereum blockchain and React for the frontend. The DApp supports multiple chains like Polygon (Mumbai) and Sepolia.
 
-# Getting Started with Create React App
+**Features**
+Ethereum Payments: Transfer ETH or ERC-20 tokens between accounts.
+Token Selection: Choose and switch between different ERC-20 tokens.
+Chain Support: Automatically detects network changes and updates token balances.
+Recent Transactions: View and save recent transaction details.
+Custom Contract Interaction: Interact with a custom PayPal-like smart contract for handling ETH payments.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Tech Stack**
+Frontend: React.js, Tailwind CSS
+Blockchain Interaction: ethers.js
+Contract Deployment: Sepolia, Polygon (Mumbai)
+State Management: React Context API
 
-## Available Scripts
+**Usage**
+Prerequisites
+MetaMask: Install MetaMask to interact with the DApp.
+Test Ether: Obtain test Ether from the Sepolia or Mumbai testnet faucet.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Steps**
+Connect MetaMask: Open the application and connect your MetaMask wallet.
+Select Chain: Switch between Sepolia or Mumbai testnets using MetaMask.
+View Balance: The application will automatically fetch and display your balance.
+Select Token: Enter the ERC-20 token contract address to view the token balance and transfer tokens.
+Transfer Funds: Enter the recipient address and amount, then click on "Transfer" to initiate the transaction.
+Save Transaction: After a successful transfer, save the transaction details for future reference
